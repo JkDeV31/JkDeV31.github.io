@@ -1,13 +1,14 @@
-# JkDeV — Portfólio (Etapa 10: pacote local pré-publicação)
+# JkDeV — Portfólio (Etapa 10: arquivos enviados, publicação pendente)
 
-**Este pacote NÃO foi enviado ao GitHub e o site NÃO está publicado.**
-É uma cópia da Etapa 09 aprovada, preparada para a futura hospedagem no GitHub Pages.
+**Os arquivos aprovados da Etapa 10 já foram enviados ao repositório público `JkDeV31/JkDeV31.github.io`, na branch `main`. A ativação do GitHub Pages ainda não foi autorizada nesta etapa, e a publicação do site não foi confirmada.**
+O repositório contém o portfólio estático preparado a partir da Etapa 09 aprovada.
 
 ## Decisão de endereço
 
-- Repositório futuro planejado: `JkDeV31.github.io`, na conta `JkDeV31`.
-- URL pública **esperada somente após criar e publicar corretamente** o repositório: <https://jkdev31.github.io/>.
-- Nenhum repositório, branch, commit ou configuração GitHub Pages foi criado ou modificado nesta etapa.
+- Repositório criado: [`JkDeV31/JkDeV31.github.io`](https://github.com/JkDeV31/JkDeV31.github.io) (público), na branch `main`.
+- Endereço planejado para o site, **ainda pendente de publicação e verificação**: <https://jkdev31.github.io/>.
+- Primeiro commit dos arquivos: [`bcfdafd9ed1b76c6f11e82e62bca8b3c5a23abdc`](https://github.com/JkDeV31/JkDeV31.github.io/commit/bcfdafd9ed1b76c6f11e82e62bca8b3c5a23abdc) — `feat: adiciona portfolio JkDeV - versao inicial`.
+- A configuração e ativação do GitHub Pages permanecem pendentes de autorização específica.
 - Não há domínio customizado nem arquivo `CNAME`.
 
 ## Mudanças da Etapa 09 para a Etapa 10
@@ -19,9 +20,9 @@
 
 **Todo o conteúdo fora do `<head>`, CSS, JavaScript e imagens dos três projetos permanece inalterado.**
 
-## Estrutura a subir no repositório (após autorização específica)
+## Estrutura enviada ao repositório
 
-Os arquivos abaixo deverão ficar **na raiz do repositório**, e não dentro de uma pasta `jkdev-portfolio-etapa-10`:
+Os 14 arquivos foram enviados à branch `main`, mantendo `index.html` e `.nojekyll` **na raiz do repositório**, sem a pasta intermediária `jkdev-portfolio-etapa-10`:
 
 ```text
 /
@@ -46,10 +47,10 @@ Os arquivos abaixo deverão ficar **na raiz do repositório**, e não dentro de 
 
 ## Checklist — antes de autorizar publicação
 
-- [ ] Revisar a arte de compartilhamento e as informações textuais.
-- [ ] Confirmar que o nome `JkDeV31.github.io` está disponível na conta e é apropriado como site principal.
-- [ ] Conferir que nenhum dado privado ou material de cliente está incluído.
-- [ ] Autorizar explicitamente a criação do repositório público e o envio dos arquivos.
+- [x] Revisar a arte de compartilhamento e as informações textuais.
+- [x] Confirmar e criar `JkDeV31.github.io` na conta `JkDeV31` como repositório do site principal.
+- [x] Revisar a ausência de telefone, localização pessoal e conteúdo de clientes nos arquivos aprovados.
+- [x] Autorizar explicitamente a criação do repositório público e o envio dos arquivos.
 - [ ] Autorizar separadamente a ativação do GitHub Pages (ou aprovar o plano completo de publicação).
 
 ## Checklist — depois da publicação (ainda NÃO executado)
@@ -69,4 +70,4 @@ Os arquivos abaixo deverão ficar **na raiz do repositório**, e não dentro de 
 - Nenhum resultado comercial, depoimento, certificação, métrica de desempenho ou cliente foi inventado.
 - O arquivo SVG da marca foi reutilizado no design da prévia social; não foram incluídos arquivos de fontes.
 - A URL canônica e a prévia absoluta estão **preparadas para um endereço futuro**. Enquanto esse endereço não estiver publicado, os links públicos apontarão para arquivos ainda indisponíveis.
-- Este ZIP é a cópia de reversão/continuidade. A Etapa 09 permanece intacta.
+- O pacote local da Etapa 10 permanece como referência para reversão/continuidade. A Etapa 09 foi preservada separadamente.
