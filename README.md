@@ -1,14 +1,15 @@
-# JkDeV — Portfólio (Etapa 10: arquivos enviados, publicação pendente)
+# JkDeV — Portfólio profissional (Etapa 11: disponibilização confirmada)
 
-**Os arquivos aprovados da Etapa 10 já foram enviados ao repositório público `JkDeV31/JkDeV31.github.io`, na branch `main`. A ativação do GitHub Pages ainda não foi autorizada nesta etapa, e a publicação do site não foi confirmada.**
-O repositório contém o portfólio estático preparado a partir da Etapa 09 aprovada.
+**O portfólio está acessível em <https://jkdev31.github.io/>.** Em 19/11/2026, a página carregou em uma aba de navegador usando HTTPS, e o conteúdo principal foi visualizado. Isso confirma a disponibilização básica do site, mas não substitui testes de links, interações, acessibilidade e desempenho.
+
+O repositório contém o portfólio estático elaborado nas etapas anteriores. A autorização histórica para ativação do Pages não pôde ser reconstruída nesta revisão; o estado público do site foi observado de forma independente.
 
 ## Decisão de endereço
 
 - Repositório criado: [`JkDeV31/JkDeV31.github.io`](https://github.com/JkDeV31/JkDeV31.github.io) (público), na branch `main`.
-- Endereço planejado para o site, **ainda pendente de publicação e verificação**: <https://jkdev31.github.io/>.
+- Endereço público acessado no navegador em 19/11/2026: <https://jkdev31.github.io/>.
 - Primeiro commit dos arquivos: [`bcfdafd9ed1b76c6f11e82e62bca8b3c5a23abdc`](https://github.com/JkDeV31/JkDeV31.github.io/commit/bcfdafd9ed1b76c6f11e82e62bca8b3c5a23abdc) — `feat: adiciona portfolio JkDeV - versao inicial`.
-- A configuração e ativação do GitHub Pages permanecem pendentes de autorização específica.
+- O site está disponível publicamente; **a configuração exata de origem do GitHub Pages** (branch e pasta em Settings → Pages) ainda não foi conferida nesta revisão.
 - Não há domínio customizado nem arquivo `CNAME`.
 
 ## Mudanças da Etapa 09 para a Etapa 10
@@ -45,23 +46,25 @@ Os 14 arquivos foram enviados à branch `main`, mantendo `index.html` e `.nojeky
 └── README.md
 ```
 
-## Checklist — antes de autorizar publicação
+## Checklist — preparação registrada
 
 - [x] Revisar a arte de compartilhamento e as informações textuais.
 - [x] Confirmar e criar `JkDeV31.github.io` na conta `JkDeV31` como repositório do site principal.
 - [x] Revisar a ausência de telefone, localização pessoal e conteúdo de clientes nos arquivos aprovados.
 - [x] Autorizar explicitamente a criação do repositório público e o envio dos arquivos.
-- [ ] Autorizar separadamente a ativação do GitHub Pages (ou aprovar o plano completo de publicação).
+- [x] Confirmar acesso público ao site usando HTTPS em 19/11/2026.
 
-## Checklist — depois da publicação (ainda NÃO executado)
+A confirmação documental da autorização específica para ativação do Pages não está disponível neste registro. Isso não impede registrar a disponibilidade pública observada.
+
+## Checklist — validação pós-publicação
 
 - [ ] Confirmar o GitHub Pages em **Settings → Pages**, com branch correta (ex.: `main`, pasta `/`).
-- [ ] Abrir <https://jkdev31.github.io/> e verificar status de carregamento e HTTPS.
+- [x] Abrir <https://jkdev31.github.io/> usando HTTPS e visualizar o conteúdo principal (19/11/2026).
 - [ ] Abrir <https://jkdev31.github.io/img/preview-social-jkdev.png> e verificar a imagem pública.
 - [ ] Testar navegação interna, fechamento do menu móvel, botões de projetos e e-mail, teclado e celular real.
 - [ ] Conferir o `<link rel="canonical">`, Open Graph, Twitter Card e prévias de compartilhamento em ferramentas apropriadas.
 - [ ] Medir desempenho e fazer revisão adicional de acessibilidade em URL pública.
-- [ ] Só depois atualizar links do Instagram, LinkedIn, GitHub e Linktree mediante autorização.
+- [ ] Conferir a consistência dos links atuais no GitHub e considerar divulgação em outros canais somente com autorização específica.
 
 ## Segurança, autenticidade e manutenção
 
@@ -69,5 +72,5 @@ Os 14 arquivos foram enviados à branch `main`, mantendo `index.html` e `.nojeky
 - O contato inicial usa `mailto:junindeveloper31@gmail.com`; não foi incluído telefone, localização pessoal ou conteúdo de cliente.
 - Nenhum resultado comercial, depoimento, certificação, métrica de desempenho ou cliente foi inventado.
 - O arquivo SVG da marca foi reutilizado no design da prévia social; não foram incluídos arquivos de fontes.
-- A URL canônica e a prévia absoluta estão **preparadas para um endereço futuro**. Enquanto esse endereço não estiver publicado, os links públicos apontarão para arquivos ainda indisponíveis.
+- A URL canônica já corresponde ao endereço público acessível. A **imagem de prévia social** e a renderização de cartões em redes externas ainda precisam ser verificadas; algumas redes podem conservar versões em cache.
 - O pacote local da Etapa 10 permanece como referência para reversão/continuidade. A Etapa 09 foi preservada separadamente.
