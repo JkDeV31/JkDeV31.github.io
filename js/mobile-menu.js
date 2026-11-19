@@ -8,4 +8,12 @@ if (mobileMenu) {
       mobileMenu.open = false;
     });
   });
+
+  // Fecha o menu com Escape e devolve o foco ao controle que o abriu.
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && mobileMenu.open) {
+      mobileMenu.open = false;
+      mobileMenu.querySelector('summary')?.focus();
+    }
+  });
 }
