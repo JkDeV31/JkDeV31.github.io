@@ -44,6 +44,9 @@ a:focus-visible, summary:focus-visible {
 .brand { display: inline-flex; align-items: center; gap: 11px; font-size: 1.65rem; line-height: 1; font-weight: 850; letter-spacing: -.07em; white-space: nowrap; text-decoration: none; }
 .brand-accent { color: var(--violet); }
 .brand-icon { width: 41px; height: 41px; flex: none; }
+/* Incremento 1: logo exclusivo do cabecalho. O rodape permanece intacto. */
+.brand--header { flex: 0 1 auto; min-width: 0; }
+.brand-logo { display: block; width: clamp(160px, 15vw, 206px); max-width: 100%; height: auto; }
 .desktop-nav { display: flex; align-items: center; gap: 32px; }
 .desktop-nav a { color: var(--muted); font-size: .93rem; text-decoration: none; transition: color .2s; }
 .desktop-nav a:hover, .desktop-nav a[aria-current] { color: var(--text); }
@@ -142,6 +145,7 @@ h1 span { color: var(--cyan); }
   .container { width: min(calc(100% - 36px), var(--container)); }
   .desktop-nav, .header-contact { display: none; }
   .mobile-nav { display: block; position: relative; }
+  .brand--header .brand-logo { width: clamp(140px, 42vw, 184px); }
   .mobile-nav summary { list-style: none; cursor: pointer; min-width: 86px; min-height: 44px; display: flex; align-items: center; justify-content: center; gap: 7px; background: var(--surface); border: 1px solid #4b6682; border-radius: 10px; color: var(--text); font-size: .92rem; font-weight: 650; }
   .mobile-nav summary::-webkit-details-marker { display: none; }
   .mobile-nav[open] summary { border-color: var(--cyan); }
